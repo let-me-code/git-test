@@ -46,7 +46,27 @@ body {
 .navbar-dark {
   background-color: $background-dark;
 }
+.modal-content {
+  .modal-header {
+    border-bottom: none;
 
+    color: floralwhite;
+
+    .close {
+      color: floralwhite;
+    }
+  }
+
+  .modal-body {
+    background: $background-pale;
+  }
+
+  .modal-footer {
+    border-top: none;
+
+    background: $background-light;
+  }
+}
 .tab-content {
   border-left: 1px solid $lt-gray;
   border-right: 1px solid $lt-gray;
